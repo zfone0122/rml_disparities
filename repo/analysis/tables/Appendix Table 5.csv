@@ -1,0 +1,18 @@
+="%  4 May 2023 11:15:23"
+="Appendix Table 5 - arrest ratio - white"
+="",="(1)",="(2)",="(3)",="(4)"
+="",="Marijuana Arrests",="Cocaine-Heroin Arrests",="Addicting Synthetic Narcotics Arrests",="Dangerous Non-Narcotic Arrests"
+="RML",="-0.0451***",="-0.0025",="-0.0073***",="-0.0085**"
+="",="(0.0076)",="(0.0024)",="(0.0024)",="(0.0035)"
+="Pre-treat DV mean",="0.0400",="0.0444",="0.0046",="0.0541"
+="N",="998",="998",="998",="998"
+
+="%  4 May 2023 11:15:24"
+="Appendix Table 5 - arrest ratio - black"
+="",="(1)",="(2)",="(3)",="(4)"
+="",="Marijuana Arrests",="Cocaine-Heroin Arrests",="Addicting Synthetic Narcotics Arrests",="Dangerous Non-Narcotic Arrests"
+="RML",="-0.0632***",="0.0029",="-0.0022*",="-0.0084*"
+="",="(0.0119)",="(0.0052)",="(0.0012)",="(0.0048)"
+="Pre-treat DV mean",="0.0490",="0.0694",="0.0019",="0.0355"
+="N",="998",="998",="998",="998"
+
