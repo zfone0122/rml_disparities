@@ -1,0 +1,2 @@
+"","type","estimate","std.error","conf.low","conf.high","point.conf.low","point.conf.high","nobs","ngroup","ntime","control.group","est.method","group","outcome","point_crit","simult_crit","pval"
+"1","simple",62.4756331142593,38.698062614253,-37.1487463811588,114.544871609665,-37.1487463811588,114.544871609665,37,2,20,"notyettreated","reg",NA,"rate_total_property_1899",2.57440225079188,2.57440225079188,0.10643239714875

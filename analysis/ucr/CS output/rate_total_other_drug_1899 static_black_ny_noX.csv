@@ -1,0 +1,2 @@
+"","type","estimate","std.error","conf.low","conf.high","point.conf.low","point.conf.high","nobs","ngroup","ntime","control.group","est.method","group","outcome","point_crit","simult_crit","pval"
+"1","simple",19.3517160984986,14.9429347415173,-14.344679175189,44.2305486582236,-14.344679175189,44.2305486582236,45,5,20,"notyettreated","reg",NA,"rate_total_other_drug_1899",2.25500518181785,2.25500518181785,0.195306018122429

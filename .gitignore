@@ -1,8 +1,7 @@
-#ignore data cloud folder
-DataCloud/
-
-#ignore MJ policy data folder
-MJ policy/data/
+#ignore UCR data folder
+data/ucr/data
 
 requirements.txt
+replication output.txt
+nvss coding questions.docx
 test.do

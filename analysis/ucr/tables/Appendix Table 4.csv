@@ -1,0 +1,9 @@
+type,estimate,stderror,controlgroup,estmethod,outcome,pval,race,covariates
+simple,-89.896103,31.678328,notyettreated,reg,rate_total_cannabis_1899,.0045428565,white,YES
+simple,-288.09674,100.77596,notyettreated,reg,rate_total_cannabis_1899,.0042526801,black,YES
+simple,18.158537,22.858732,notyettreated,reg,rate_total_nonmj_1899,.42697379,white,YES
+simple,26.980015,52.302303,notyettreated,reg,rate_total_nonmj_1899,.60596091,black,YES
+simple,11.896069,22.384315,notyettreated,reg,rate_total_property_1899,.59510934,white,YES
+simple,-34.681221,75.152206,notyettreated,reg,rate_total_property_1899,.64445448,black,YES
+simple,-2.2307768,5.0188389,notyettreated,reg,rate_total_violent_1899,.65669513,white,YES
+simple,48.99205,28.499035,notyettreated,reg,rate_total_violent_1899,.085600257,black,YES

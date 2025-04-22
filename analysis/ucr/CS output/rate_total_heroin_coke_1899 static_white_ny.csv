@@ -1,0 +1,2 @@
+"","type","estimate","std.error","conf.low","conf.high","point.conf.low","point.conf.high","nobs","ngroup","ntime","control.group","est.method","group","outcome","point_crit","simult_crit","pval"
+"1","simple",-2.17378985151243,7.48735187232017,-7.1875881370059,22.1622918816462,-7.1875881370059,22.1622918816462,45,5,20,"notyettreated","reg",NA,"rate_total_heroin_coke_1899",0.669635723149178,0.669635723149178,0.771565120029623

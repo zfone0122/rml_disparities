@@ -1,0 +1,17 @@
+type,estimate,stderror,controlgroup,estmethod,outcome,pval,race,rml
+simple,-90.928658,35.528957,notyettreated,reg,rate_total_cannabis_1899,.010488831,white,sales
+simple,-288.37338,103.71021,notyettreated,reg,rate_total_cannabis_1899,.0054263724,black,sales
+simple,-92.135147,42.463982,notyettreated,reg,rate_total_cannabis_1899,.030027708,white,nosales
+simple,-401.32669,192.50815,notyettreated,reg,rate_total_cannabis_1899,.037094206,black,nosales
+simple,18.965057,22.847492,notyettreated,reg,rate_total_nonmj_1899,.40649825,white,sales
+simple,27.575033,52.119705,notyettreated,reg,rate_total_nonmj_1899,.59675604,black,sales
+simple,-52.591145,33.30323,notyettreated,reg,rate_total_nonmj_1899,.11429924,white,nosales
+simple,-235.53252,122.85382,notyettreated,reg,rate_total_nonmj_1899,.055215444,black,nosales
+simple,9.1406164,21.910501,notyettreated,reg,rate_total_property_1899,.67654699,white,sales
+simple,-34.575306,70.788948,notyettreated,reg,rate_total_property_1899,.6252467,black,sales
+simple,62.475632,38.698063,notyettreated,reg,rate_total_property_1899,.1064324,white,nosales
+simple,-70.724777,98.350342,notyettreated,reg,rate_total_property_1899,.47207272,black,nosales
+simple,-2.119328,4.9799075,notyettreated,reg,rate_total_violent_1899,.67041701,white,sales
+simple,49.000641,28.839766,notyettreated,reg,rate_total_violent_1899,.089306891,black,sales
+simple,-7.275238,5.2477226,notyettreated,reg,rate_total_violent_1899,.16563667,white,nosales
+simple,-38.366508,36.615051,notyettreated,reg,rate_total_violent_1899,.29471493,black,nosales

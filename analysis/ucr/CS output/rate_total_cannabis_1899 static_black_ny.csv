@@ -1,0 +1,2 @@
+"","type","estimate","std.error","conf.low","conf.high","point.conf.low","point.conf.high","nobs","ngroup","ntime","control.group","est.method","group","outcome","point_crit","simult_crit","pval"
+"1","simple",-288.096727243304,100.775962895047,-96.7412948865897,298.293220676683,-96.7412948865897,298.293220676683,45,5,20,"notyettreated","reg",NA,"rate_total_cannabis_1899",-1.89882018349953,-1.89882018349953,0.00425268021887026
