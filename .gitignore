@@ -1,0 +1,8 @@
+#ignore data cloud folder
+DataCloud/
+
+#ignore MJ policy data folder
+MJ policy/data/
+
+requirements.txt
+test.do
