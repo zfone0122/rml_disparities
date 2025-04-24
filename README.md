@@ -17,7 +17,7 @@ Replication instructions:
 
 3. Download the data from Zenodo (Note: after unzipping the data files, the folder is roughly 18.5 GB in size):
 
-		a. Unzip and place the "data" folder in the "~\rml_disparities\data\ucr\data\" subdirectory
+		a. Unzip and place the "data" folder in the "~\rml_disparities\data\ucr\" subdirectory
 		b. Now, the directory is as follows:
 			rml_disparities\
 				master_rml.do
