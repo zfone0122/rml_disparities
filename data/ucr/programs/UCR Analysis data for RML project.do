@@ -10,7 +10,7 @@ clear all
 *Combine data (UCR, SEER, Policy variables, Covariates) | LONG format (separate obs for all/black/white)
 ******
 ***
-*UCR (for prior coding, see: "path\source_date\programs\UCR data for RML project.do")
+*UCR 
 ***
 use "$path\data\ucr\data\ucr\cleaned\ucr_state-year_2000-2019_cleaned.dta", clear
 
@@ -39,7 +39,7 @@ drop _merge
 order state state_abb fips, before(year)
 
 ***
-*SEER (for prior coding, see: "path\source_date\programs\SEER data for RML project.do")
+*SEER 
 *** 
 merge m:1 fips year using "$path\data\ucr\data\seer\cleaned\seer_state-year_2000-2019_cleaned.dta", keepusing(totalpop)
 drop if _merge==2
@@ -55,7 +55,7 @@ foreach i in agg_assault_1899 murder_1899 rape_1899 robbery_1899 arson_1899 burg
 }
 
 *** 
-*Policy variables (for prior coding, see: "path\source_date\programs\Policy data for RML project.do")
+*Policy variables 
 ***
 gen state_fips=fips
 merge m:1 state_fips year using "$path\data\ucr\data\policy\rml-mml_2000-2019.dta" 
@@ -68,7 +68,7 @@ drop if _merge==2
 drop _merge 
 
 *** 
-*Covariates (for prior coding, see: "path\source_date\programs\Policy data for RML project.do")
+*Covariates 
 ***
 merge m:1 state_fips year using "$path\data\ucr\data\policy\covariates_2000-2019.dta" 
 drop if _merge==2

@@ -6,16 +6,15 @@ library(readstata13)
 #install.packages("did")
 library(did)
 
-#load analysis data
+#load analysis data (UPDATE FILE PATH)
 black <- read.dta13("C:/Users/Zachary.Fone/Desktop/RML/data/ucr/data/analysis_files/rml_black.dta")
 white <- read.dta13("C:/Users/Zachary.Fone/Desktop/RML/data/ucr/data/analysis_files/rml_white.dta")
 black_sales <- read.dta13("C:/Users/Zachary.Fone/Desktop/RML/data/ucr/data/analysis_files/rml_black_sales.dta")
 white_sales <- read.dta13("C:/Users/Zachary.Fone/Desktop/RML/data/ucr/data/analysis_files/rml_white_sales.dta")
 black_nosales <- read.dta13("C:/Users/Zachary.Fone/Desktop/RML/data/ucr/data/analysis_files/rml_black_nosales.dta")
 white_nosales <- read.dta13("C:/Users/Zachary.Fone/Desktop/RML/data/ucr/data/analysis_files/rml_white_nosales.dta")
-resid <- read.dta13("C:/Users/Zachary.Fone/Desktop/RML/data/ucr/data/analysis_files/residY.dta")
 
-#set your directory
+#set your directory (UPDATE FILE PATH)
 setwd("C:/Users/Zachary.Fone/Desktop/RML/analysis/ucr/CS output/")
 
 ################# Static/Event Study Estimates ####
@@ -208,7 +207,7 @@ for (y in x) {
   
 }
 
-#### White: not yet treated ####
+#### White: not yet treated - no covariates ####
 x<-c("rate_total_cannabis_1899", "rate_total_nonmj_1899", "rate_total_property_1899", "rate_total_violent_1899",
      "rate_total_heroin_coke_1899", "rate_total_synth_narc_1899", "rate_total_other_drug_1899")
 

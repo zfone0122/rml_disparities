@@ -10,7 +10,7 @@ clear all
 *Combine data (UCR, SEER, Policy variables, Covariates) | LONG format (separate obs for all/black/white)
 ******
 ***
-*UCR (for prior coding, see: "path\source_date\programs\UCR data for RML project.do")
+*UCR 
 ***
 use "$path\data\ucr\data\ucr\cleaned\ucr_agency-year_2000-2019_cleaned.dta", clear
 
@@ -50,7 +50,7 @@ foreach i in total_drug poss_drug_total sale_drug_total poss_cannabis sale_canna
 }
 
 *** 
-*Policy variables (for prior coding, see: "path\source_date\programs\Policy data for RML project.do")
+*Policy variables 
 ***
 gen state_fips=fips
 merge m:1 state_fips year using "$path\data\ucr\data\policy\rml-mml_2000-2019.dta" 
@@ -63,7 +63,7 @@ drop if _merge==2
 drop _merge 
 
 *** 
-*Covariates (for prior coding, see: "path\source_date\programs\Policy data for RML project.do")
+*Covariates 
 ***
 merge m:1 state_fips year using "$path\data\ucr\data\policy\covariates_2000-2019.dta" 
 drop if _merge==2
