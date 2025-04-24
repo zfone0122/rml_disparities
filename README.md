@@ -25,7 +25,6 @@ Replication instructions:
 					nvss\
 						figures\
 						tables\
-						Replication NVSS.do
 					ucr\
 						BOE\
 						CS output\
