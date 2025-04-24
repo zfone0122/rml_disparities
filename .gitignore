@@ -1,7 +1,0 @@
-#ignore UCR data folder
-data/ucr/data
-
-requirements.txt
-replication output.txt
-nvss coding questions.docx
-test.do
