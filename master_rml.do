@@ -1,8 +1,8 @@
 **********************************************************
 *name: master_rml.do
 *author: Zach Fone (U.S. Air Force Academy)
-*description: This file runs all the progrmas needed to 
-*             i) clean and compile the data used in the analaysis,
+*description: This file runs all the programs needed to 
+*             i) clean and compile the data used in the analysis,
 *             and ii) create the tables and figures included in 
 *             the draft.
 **********************************************************
